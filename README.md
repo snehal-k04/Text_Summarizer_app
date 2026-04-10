@@ -13,6 +13,10 @@
 ![Text Summarizer Demo](demo.png)
 
 ---
+## 🤗 Model
+
+Trained T5 model hosted on Hugging Face Hub:  
+👉 [svk260404/text-summarizer-t5](https://huggingface.co/svk260404/text-summarizer-t5)
 
 ## How It Works
 
