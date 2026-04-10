@@ -12,8 +12,8 @@ from fastapi.staticfiles import StaticFiles
 app=FastAPI(title="Text Summarizer App", description="Text Summarization using T5",version=1.0)
 
 
-model=T5ForConditionalGeneration.from_pretrained("./saved_memory")
-tokenizer=T5Tokenizer.from_pretrained("./saved_memory")
+model=T5ForConditionalGeneration.from_pretrained("svk260404/text-summarizer-t5")
+tokenizer=T5Tokenizer.from_pretrained("svk260404/text-summarizer-t5")
 
 
 # Device
